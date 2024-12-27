@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/aguas-vvs/', // Replace 'aguas-vvs' with your repository name
+  base: '/Aguas/', // Replace 'aguas-vvs' with your repository name
   plugins: [react()]
 })
