@@ -73,4 +73,7 @@
     .about h3 {
         font-size: 12px;
     }
+    .about p{
+        font-size: 8px;
+    }
 }
