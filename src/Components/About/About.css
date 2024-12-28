@@ -100,12 +100,12 @@
         width: 100%; /* Ensure no horizontal scrolling */
     }
     .about h2 {
-        font-size: 18px; /* Reduce heading size */
+        font-size: 16px; /* Reduce heading size */
         margin: 8px 0;
         width: auto; /* Remove fixed width to allow shrinking */
     }
     .about p {
-        font-size: 12px; /* Smaller text */
+        font-size: 10px; /* Smaller text */
         line-height: 1.4; /* Adjust line spacing */
         margin-bottom: 10px;
     }
