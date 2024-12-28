@@ -69,6 +69,7 @@
     }
     .about-left, .about-right {
         padding: 10px;
+        margin: 20px;
     }
     .about h3 {
         font-size: 12px;
