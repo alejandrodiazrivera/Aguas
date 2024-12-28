@@ -106,6 +106,7 @@
     }
     .about p {
         font-size: 10px; /* Smaller text */
+        color:red
         line-height: 1.4; /* Adjust line spacing */
         margin-bottom: 10px;
     }
