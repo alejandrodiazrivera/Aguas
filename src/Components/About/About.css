@@ -61,3 +61,16 @@
         flex-basis: 100%;
     }
 }
+
+/*------------Media query for screens up to 400px--------------*/
+@media(max-width: 400px) {
+    .about {
+        padding: 5px;
+    }
+    .about-left, .about-right {
+        padding: 10px;
+    }
+    .about h3 {
+        font-size: 12px;
+    }
+}
