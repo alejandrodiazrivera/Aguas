@@ -93,13 +93,23 @@
 /*------------Media query for screens up to 375px--------------*/
 @media (max-width: 375px) {
     .about {
-        padding: 5px 10px; /* Tighter padding for small phones */
+        flex-direction: column; /* Stack content vertically */
+        padding: 5px 10px; /* Add tighter padding */
+        overflow-wrap: break-word; /* Prevent long text from overflowing */
+        word-wrap: break-word; /* Extra support for older browsers */
+        width: 100%; /* Ensure no horizontal scrolling */
     }
     .about h2 {
-        font-size: 22px; /* Smaller headings for tiny screens */
+        font-size: 18px; /* Reduce heading size */
+        margin: 8px 0;
+        width: auto; /* Remove fixed width to allow shrinking */
     }
     .about p {
-        font-size: 12px;
-        line-height: 1.5; /* Keep readability high */
+        font-size: 12px; /* Smaller text */
+        line-height: 1.4; /* Adjust line spacing */
+        margin-bottom: 10px;
+    }
+    .about-left, .about-right {
+        padding: 5px; /* Reduce padding */
     }
 }
