@@ -51,7 +51,7 @@
 }
 
 /*------------Media query--------------*/
-@media (max-width: 800px) {
+@media (max-width: 860px) {
     .about {
         flex-direction: column;
     }
