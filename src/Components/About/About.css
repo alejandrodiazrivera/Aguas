@@ -65,20 +65,19 @@
 /*------------Media query for screens up to 400px--------------*/
 @media(max-width: 400px) {
     .about {
-        padding: 5px;
+        padding: 5px 15px; /* Add horizontal padding */
     }
     .about-left, .about-right {
         padding: 10px;
-
+        margin: 10px 0;
     }
     .about h3 {
         font-size: 12px;
     }
-
     .about h2 {
-        font-size: 25px;
+        font-size: 18px;
     }
-    .about p{
-        font-size: 8px;
+    .about p {
+        font-size: 10px;
     }
 }
