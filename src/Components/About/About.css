@@ -111,5 +111,6 @@
     }
     .about-left, .about-right {
         padding: 5px; /* Reduce padding */
+        margin: 20px;
     }
 }
