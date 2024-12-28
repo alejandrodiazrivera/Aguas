@@ -63,7 +63,7 @@
 }
 
 /*------------Media query for screens up to 400px--------------*/
-@media(max-width: 400px) {
+@media(max-width: 375x) {
     .about {
         padding: 5px 15px; /* Add horizontal padding */
     }
@@ -72,12 +72,12 @@
         margin: 10px 0;
     }
     .about h3 {
-        font-size: 12px;
-    }
-    .about h2 {
         font-size: 18px;
     }
+    .about h2 {
+        font-size: 22px;
+    }
     .about p {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
