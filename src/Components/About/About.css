@@ -91,7 +91,7 @@
 }
 
 /*------------Media query for screens up to 375px--------------*/
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .about {
         flex-direction: column; /* Stack content vertically */
         padding: 5px 10px; /* Add tighter padding */
