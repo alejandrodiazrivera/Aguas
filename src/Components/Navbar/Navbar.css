@@ -39,7 +39,7 @@ nav ul li{
     font-weight: bold;
     color: #fff; /* Change text color if needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    transform: scale(1.05); /* Slightly increase the size */
+    transition: all 0.75s ease-in-out;
 }
 
 /*-----media query------*/
