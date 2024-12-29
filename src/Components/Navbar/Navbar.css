@@ -66,8 +66,8 @@ nav ul li{
     cursor: pointer;
     font-size: 24px;
 }
-
-.contact-btn{
+ 
+.contact-btn btn{
     z-index: 1;
     position: relative;
     font-size: inherit;
@@ -80,11 +80,11 @@ nav ul li{
     border-radius: 10px;
   }
 
-.contact-btn:hover :hover {
+.contact-btn btn:hover :hover {
     cursor: pointer;
   }
 
-.contact-btn:before {
+.contact-btn btn:before {
 content: '';
 z-index: -1;
 position: absolute;
@@ -98,7 +98,7 @@ transform: scale(1);
 border-radius: 10px;
 }
 
-.contact-btn:hover::before {
+.contact-btn btn:hover::before {
     transition: all 0.75s ease-in-out;
     transform-origin: center;
     transform: scale(1.75);
