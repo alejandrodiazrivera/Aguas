@@ -34,7 +34,7 @@ nav ul li{
     font-size: 24px;
 }
 
-contact-btn{
+.contact-btn{
     z-index: 1;
     position: relative;
     font-size: inherit;
@@ -45,9 +45,6 @@ contact-btn{
     border: none;
     background-color: hsl(236, 32%, 26%);
   }
-
-
-
 
 .contact-btn:hover :hover {
     cursor: pointer;
