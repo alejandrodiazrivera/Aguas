@@ -94,7 +94,7 @@
 @media (max-width: 390px) {
     .about {
         flex-direction: column; /* Stack content vertically */
-        padding: 5px 10px; /* Add tighter padding */
+        padding: 25px 10px; /* Add tighter padding */
         overflow-wrap: break-word; /* Prevent long text from overflowing */
         word-wrap: break-word; /* Extra support for older browsers */
         width: 100%; /* Ensure no horizontal scrolling */
