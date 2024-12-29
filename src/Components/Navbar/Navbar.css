@@ -18,8 +18,15 @@ nav{
     color: inherit; /* Inherit color from parent */
 }
 
+/* Styles for the Link elements */
+a:not(.contact-btn) {
+    position: relative;
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
 /* Before pseudo-element for the underline effect */
-.a::before {
+a:not(.contact-btn)::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -32,8 +39,8 @@ nav{
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hover effect for the <a> tag */
-.a:hover::before {
+/* Hover effect for the Link elements */
+a:not(.contact-btn):hover::before {
     transform: translate(-50%, 0) scaleX(1);
 }
 
