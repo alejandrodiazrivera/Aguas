@@ -12,14 +12,14 @@ nav{
     z-index: 10;
 }
 
-.hide_mobile_menu a {
+.a {
     position: relative;
     text-decoration: none;
     color: inherit; /* Inherit color from parent */
 }
 
 /* Before pseudo-element for the underline effect */
-.hide_mobile_menu a::before {
+.a::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -33,7 +33,7 @@ nav{
 }
 
 /* Hover effect for the <a> tag */
-.hide_mobile_menu a:hover::before {
+.a:hover::before {
     transform: translate(-50%, 0) scaleX(1);
 }
 
