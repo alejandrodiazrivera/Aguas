@@ -23,8 +23,8 @@
 }
 
 .next-btn:hover,
-.back-btn:hover{
-    transform: translateX(5px);
+.back-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
 .slider{
