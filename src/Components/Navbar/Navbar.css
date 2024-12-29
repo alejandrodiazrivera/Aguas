@@ -19,14 +19,14 @@ nav{
 }
 
 /* Styles for the Link elements */
-a:not(.contact-btn) {
+a:not(btn contact-btn) {
     position: relative;
     text-decoration: none;
     color: inherit; /* Inherit color from parent */
 }
 
 /* Before pseudo-element for the underline effect */
-a:not(.contact-btn)::before {
+a:not(btn contact-btn)::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -40,7 +40,7 @@ a:not(.contact-btn)::before {
 }
 
 /* Hover effect for the Link elements */
-a:not(.contact-btn):hover::before {
+a:not(btn contact-btn):hover::before {
     transform: translate(-50%, 0) scaleX(1);
 }
 
