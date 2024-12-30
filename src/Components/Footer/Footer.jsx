@@ -4,10 +4,10 @@ import './Footer.css'
 export const Footer = () => {
   return (
     <div className='footer'>
-        <p>© 2024 Aguas A/S. All rights reserved</p>
+        <p>© 2024 Aguas A/S Alle rettigheder forbeholdes</p>
         <ul>
-            <li>Terms of Service</li>
-            <li>Privacy Policy</li>
+            <li>Brugsbetingelser</li>
+            <li>Privatlivspolitik</li>
         </ul>
     </div>
   )
