@@ -27,8 +27,6 @@
     background-color: #0056b3; /* Change to your desired color */
     color: #fff; /* Change text color if needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-
-    transform: translate(0%,0.1%)
 }
 
 .slider{
