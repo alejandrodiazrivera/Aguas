@@ -12,7 +12,7 @@ function Hero() {
             Med en stor passion for at løsne spændinger i rørene arbejder vi for et kloakfrit miljø og sund sanitet i hele verden
             </p>
             <Link to='program' smooth={true} offset={-240} duration={500} className='btn'>
-                Explore more <img src={dark_arrow} alt=''/>
+                Se mere <img src={dark_arrow} alt=''/>
             </Link>
         </div>
     </div>
