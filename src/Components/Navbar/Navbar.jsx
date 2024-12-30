@@ -23,12 +23,12 @@ const Navbar = () => {
         <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
             <img src={logo} alt="" className='logo' />
             <ul className={mobileMenu?'':'hide_mobile_menu'}>
-                <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-                <li><Link to='programs' smooth={true} offset={-260} duration={500}>Program</Link></li>
-                <li><Link to='about' smooth={true} offset={-150} duration={500}>About us</Link></li>
-                <li><Link to='campus' smooth={true} offset={-260} duration={500}>Campus</Link></li>
-                <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
-                <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn contact-btn'>Contact us</Link></li>
+                <li><Link to='hero' smooth={true} offset={0} duration={500}>Hjem</Link></li>
+                <li><Link to='programs' smooth={true} offset={-260} duration={500}>Serviceydelser</Link></li>
+                <li><Link to='about' smooth={true} offset={-150} duration={500}>Om os</Link></li>
+                <li><Link to='campus' smooth={true} offset={-260} duration={500}>projekter</Link></li>
+                <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Vores kunder</Link></li>
+                <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn contact-btn'>Kontakt os</Link></li>
             </ul>
             <img src={menu_icon} alt="" className='menu_icon' onClick={toggleMenu}/>
         </nav>
