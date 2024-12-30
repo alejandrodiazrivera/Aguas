@@ -36,23 +36,23 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-        <h3>Send us a message <img src={message_icon} alt='' /></h3>
-        <p>Have a question or need help with your order? Contact us today and we'll get back to you within 24 hours.</p>
+        <h3>Send en besked <img src={message_icon} alt='' /></h3>
+        <p>Har du et spørgsmål eller har du brug for hjælp med din ordre? Kontakt os i dag, og vi vender tilbage til dig inden for 24 timer.</p>
         <ul>
-            <li><img src={mail_icon} alt=''/> Contact@aguas.com</li>
+            <li><img src={mail_icon} alt=''/> Kontakt@aguas.dk</li>
             <li><img src={phone_icon} alt=''/> 30 98 89 83</li>
             <li><img src={location_icon} alt=''/> Løgstørgade 18, 2100 København Ø, Danmark</li>
         </ul>
         </div>
         <div className="contact-col">
             <form onSubmit={onSubmit}>
-                <label>Your name</label>
-                <input type='text' name='name' placeholder='Enter your name' required/>
-                <label>Phone number</label>
-                <input type='tel' name='phone' placeholder='Enter your phone number' required/>
-                <label>Write your message here</label>
-                <textarea name='message' rows="6" placeholder='Enter your message' required></textarea>
-                <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt=''/></button>
+                <label>Dit navn</label>
+                <input type='text' name='name' placeholder='Indtast dit navn' required/>
+                <label>Telefonnummer</label>
+                <input type='tel' name='phone' placeholder='Indtast dit telefonnummer' required/>
+                <label>Skriv din besked her</label>
+                <textarea name='message' rows="6" placeholder='indtast besked' required></textarea>
+                <button type='submit' className='btn dark-btn'>Indsend nu<img src={white_arrow} alt=''/></button>
             </form>
             <span>{result}</span>
         </div>
