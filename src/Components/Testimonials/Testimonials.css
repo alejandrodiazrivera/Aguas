@@ -27,7 +27,7 @@
     background-color: #0056b3; /* Change to your desired color */
     color: #fff; /* Change text color if needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.336); /* Add a subtle shadow */
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 .slider{
