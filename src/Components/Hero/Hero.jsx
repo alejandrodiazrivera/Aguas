@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className='hero container'>
         <div className="hero-text">
-            <h1>Vand- og VVS-mester – ét tilstoppet toilet ad gangen.</h1>
+            <h1>VVS-mester – ét tilstoppet toilet ad gangen.</h1>
             <p>
             Med en stor passion for at løsne spændinger i rørene arbejder vi for et kloakfrit miljø og sund sanitet i hele verden
             </p>
