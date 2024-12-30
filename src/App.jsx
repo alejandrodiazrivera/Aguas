@@ -18,14 +18,14 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className='container'>
-        <Title subTitle='Our PROGRAM' title='What we offer'/>
+        <Title subTitle='Vores Serviceydelser' title='Hvad vi tilbyder'/>
         <Programs/>
         <About setPlayState={setPlayState}/>
-        <Title subTitle='Gallery' title='Campus Photos'/>
+        <Title subTitle='Billeder' title='Projekter'/>
         <Campus/>
-        <Title subTitle='TESTIMONIALS' title='What Cumstomers Says'/>
+        <Title subTitle='Kunderanmeldelser' title='Hvad Siger Vores Kunder'/>
         <Testimonials/>
-        <Title subTitle='Contact US' title='Get in touch'/>
+        <Title subTitle='Kontakt Os' title='Kom i kontakt'/>
         <Contact/>
         <Footer/>
     </div>
