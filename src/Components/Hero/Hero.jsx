@@ -7,9 +7,9 @@ function Hero() {
   return (
     <div className='hero container'>
         <div className="hero-text">
-            <h1>WaterPlumbing Master - one unclogged toilet at a time</h1>
+            <h1>Vand- og VVS-mester – ét tilstoppet toilet ad gangen.</h1>
             <p>
-                With a great passion for releasing pipe tensions, we work for a poop-free environment and healthy sanitation all over the world.
+            Med en stor passion for at løsne spændinger i rørene arbejder vi for et kloakfrit miljø og sund sanitet i hele verden
             </p>
             <Link to='program' smooth={true} offset={-240} duration={500} className='btn'>
                 Explore more <img src={dark_arrow} alt=''/>
