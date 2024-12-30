@@ -23,7 +23,7 @@ const App = () => {
         <About setPlayState={setPlayState}/>
         <Title subTitle='Billeder' title='VVS Installationer'/>
         <Campus/>
-        <Title subTitle='Kunderanmeldelser' title='Hvad Siger Vores Kunder'/>
+        <Title subTitle='Kundeanmeldelser' title='Hvad Siger Vores Kunder'/>
         <Testimonials/>
         <Title subTitle='Kontakt Os' title='Kom i Kontakt'/>
         <Contact/>
