@@ -28,7 +28,7 @@
     color: #fff; /* Change text color if needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 
-    transform: translate(50%,0)
+    transform: translate(10%,0)
 }
 
 .slider{
