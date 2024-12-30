@@ -51,7 +51,7 @@ const Contact = () => {
                 <label>Telefonnummer</label>
                 <input type='tel' name='phone' placeholder='Indtast dit telefonnummer' required/>
                 <label>Skriv din besked her</label>
-                <textarea name='message' rows="6" placeholder='indtast besked' required></textarea>
+                <textarea name='message' rows="6" placeholder='Indtast besked' required></textarea>
                 <button type='submit' className='btn dark-btn'>Indsend nu<img src={white_arrow} alt=''/></button>
             </form>
             <span>{result}</span>
