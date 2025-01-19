@@ -14,7 +14,7 @@ const Programs = () => {
             <img src={program_1} alt=""/>
             <div className='caption'>
                 <img src={program_icon_1} alt=""/>
-                <p>Plumbing</p>
+                <p>VVS</p>
         </div>
         </div>
 
@@ -22,7 +22,7 @@ const Programs = () => {
             <img src={program_2} alt=""/>
             <div className='caption'>
                 <img src={program_icon_2} alt=""/>
-                <p>Refrigeration</p>
+                <p>Murer</p>
         </div>
         </div>
 
@@ -30,7 +30,7 @@ const Programs = () => {
             <img src={program_3} alt=""/>
             <div className='caption'>
                 <img src={program_icon_3} alt=""/>
-                <p>Drainage</p>
+                <p>Tømrer</p>
         </div>
         </div>
     </div>
